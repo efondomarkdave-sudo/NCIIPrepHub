@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 1: CSS Pretest</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      padding: 40px;
+    }
+    .quiz-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #0072ff;
+      margin-bottom: 30px;
+    }
+    .question {
+      margin-bottom: 25px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+    .question h4 {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    button {
+      background: #0072ff;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .result {
+      margin-top: 30px;
+      padding: 20px;
+      background: #e6f7ff;
+      border-left: 5px solid #0072ff;
+      border-radius: 10px;
+    }
+    .correct { color: green; }
+    .incorrect { color: red; }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h2>PRETEST</h2>
+    <form id="quizForm">
+
+      <div class="question">
+        <h4>1. This serves as the source for electricity to the computer.</h4>
+        <label><input type="radio" name="q1" value="Power Supply"> Power Supply</label>
+        <label><input type="radio" name="q1" value="Central Processing Unit"> Central Processing Unit</label>
+        <label><input type="radio" name="q1" value="Battery"> Battery</label>
+        <label><input type="radio" name="q1" value="System Unit"> System Unit</label>
+      </div>
+
+      <div class="question">
+        <h4>2. Tool to avoid static electricity damage:</h4>
+        <label><input type="radio" name="q2" value="LAN Tester"> LAN Tester</label>
+        <label><input type="radio" name="q2" value="Antistatic Mat and Wrist Wrap"> Antistatic Mat and Wrist Wrap</label>
+        <label><input type="radio" name="q2" value="Compressed Air"> Compressed Air</label>
+        <label><input type="radio" name="q2" value="Crimping Tool"> Crimping Tool</label>
+      </div>
+
+      <div class="question">
+        <h4>3. The following are storage devices EXCEPT FOR:</h4>
+        <label><input type="radio" name="q3" value="Hard Disk Drive"> Hard Disk Drive</label>
+        <label><input type="radio" name="q3" value="Random Access Memory"> Random Access Memory</label>
+        <label><input type="radio" name="q3" value="Solid State Drive"> Solid State Drive</label>
+        <label><input type="radio" name="q3" value="Flash Drive"> Flash Drive</label>
+      </div>
+
+      <div class="question">
+        <h4>4. The computer accepts information in the form of:</h4>
+        <label><input type="radio" name="q4" value="Controlled Currents"> Controlled Currents</label>
+        <label><input type="radio" name="q4" value="Digitalized Data"> Digitalized Data</label>
+        <label><input type="radio" name="q4" value="Analog Frequencies"> Analog Frequencies</label>
+        <label><input type="radio" name="q4" value="Electric Blasts"> Electric Blasts</label>
+      </div>
+
+      <div class="question">
+        <h4>5. Types of computers EXCEPT FOR:</h4>
+        <label><input type="radio" name="q5" value="Supercomputer"> Supercomputer</label>
+        <label><input type="radio" name="q5" value="Market Computer"> Market Computer</label>
+        <label><input type="radio" name="q5" value="Microcomputer"> Microcomputer</label>
+        <label><input type="radio" name="q5" value="Mainframe Computer"> Mainframe Computer</label>
+      </div>
+
+      <div class="question">
+        <h4>6. Port used in modern monitors and home theaters:</h4>
+        <label><input type="radio" name="q6" value="S/PDIF"> S/PDIF</label>
+        <label><input type="radio" name="q6" value="Firewire"> Firewire</label>
+        <label><input type="radio" name="q6" value="HDMI"> HDMI</label>
+        <label><input type="radio" name="q6" value="VGA"> VGA</label>
+      </div>
+
+      <div class="question">
+        <h4>7. Computers made during early years EXCEPT FOR:</h4>
+        <label><input type="radio" name="q7" value="MS-Dos"> MS-Dos</label>
+        <label><input type="radio" name="q7" value="Analytical Engine"> Analytical Engine</label>
+        <label><input type="radio" name="q7" value="Atanasoff-Berry Computer"> Atanasoff-Berry Computer</label>
+        <label><input type="radio" name="q7" value="Value Machine"> Value Machine</label>
+      </div>
+
+      <div class="question">
+        <h4>8. FACTS about CPU EXCEPT FOR:</h4>
+        <label><input type="radio" name="q8" value="It is the brain of the computer."> It is the brain of the computer.</label>
+        <label><input type="radio" name="q8" value="Intel is the only brand of CPU available in the market."> Intel is the only brand of CPU available in the market.</label>
+        <label><input type="radio" name="q8" value="It is also called the processor."> It is also called the processor.</label>
+        <label><input type="radio" name="q8" value="A fan and a heat sink is usually installed to regulate its temperature."> A fan and a heat sink is usually installed to regulate its temperature.</label>
+      </div>
+
+      <div class="question">
+        <h4>9. Recommended RAM for different tasks:</h4>
+        <label><input type="radio" name="q9" value="1, 4, 8"> 1, 4, 8</label>
+        <label><input type="radio" name="q9" value="4, 8, 16"> 4, 8, 16</label>
+        <label><input type="radio" name="q9" value="2, 6, 8"> 2, 6, 8</label>
+        <label><input type="radio" name="q9" value="1, 2, 4"> 1, 2, 4</label>
+      </div>
+
+      <div class="question">
+        <h4>10. Tool used in locking RJ45 into UTP Cables:</h4>
+        <label><input type="radio" name="q10" value="LAN Tester"> LAN Tester</label>
+        <label><input type="radio" name="q10" value="Precision Tools"> Precision Tools</label>
+        <label><input type="radio" name="q10" value="Desoldering Tool"> Desoldering Tool</label>
+        <label><input type="radio" name="q10" value="Crimping Tools"> Crimping Tools</label>
+      </div>
+
+      <button type="button" onclick="checkAnswers()">Submit Answers</button>
+    </form>
+
+    <div class="result" id="result"></div>
+  </div>
+
+
+  <script>
+  function checkAnswers() {
+    const correctAnswers = {
+      q1: "Power Supply",
+      q2: "Antistatic Mat and Wrist Wrap",
+      q3: "Random Access Memory",
+      q4: "Digitalized Data",
+      q5: "Market Computer",
+      q6: "HDMI",
+      q7: "Value Machine",
+      q8: "Intel is the only brand of CPU available in the market.",
+      q9: "1, 4, 8",
+      q10: "Crimping Tools"
+    };
+
+    let score = 0;
+    let total = Object.keys(correctAnswers).length;
+    let feedback = "";
+
+    for (let q in correctAnswers) {
+      const selected = document.querySelector(`input[name="${q}"]:checked`);
+      if (selected) {
+        if (selected.value === correctAnswers[q]) {
+          score++;
+          feedback += `<p class="correct"><strong>${q.toUpperCase()}</strong>: ✅ Correct</p>`;
+        } else {
+          feedback += `<p class="incorrect"><strong>${q.toUpperCase()}</strong>: ❌ Incorrect — Correct answer is <em>${correctAnswers[q]}</em></p>`;
+        }
+      } else {
+        feedback += `<p class="incorrect"><strong>${q.toUpperCase()}</strong>: ❌ No answer selected — Correct answer is <em>${correctAnswers[q]}</em></p>`;
+      }
+    }
+
+    document.getElementById("result").innerHTML = `
+      <h3>You scored ${score} out of ${total}</h3>
+      ${feedback}
+    `;
+    document.getElementById("result").scrollIntoView({ behavior: "smooth" });
+  
+
+  const resultBox = document.getElementById("result");
+  resultBox.innerHTML = `
+    <h3>You scored ${score} out of ${total}</h3>
+    <div>${feedback}</div>
+    <p id="countdown" style="color: gray;">⏳ You have <strong>60</strong> seconds to review...</p>
+  `;
+  resultBox.scrollIntoView({ behavior: "smooth" });
+
+  // Countdown timer
+  let timeLeft = 60;
+  const countdownEl = document.getElementById("countdown");
+  const timer = setInterval(() => {
+    timeLeft--;
+    countdownEl.innerHTML = `⏳ You have <strong>${timeLeft}</strong> seconds to review...`;
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      resultBox.innerHTML = "";
+      document.getElementById("quizForm").reset();
+      alert("⏰ Time's up! Quiz has been reset.");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, 1000);
+}
+
+
+
+</script>
+
+
+</body>
+</html>

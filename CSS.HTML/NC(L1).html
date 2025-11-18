@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NC II - Lesson 1 | NC2PrepHub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+
+    body {
+      background: url('nhs.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 30px 20px;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      padding: 40px;
+      border-radius: 20px;
+      width: 95%;
+      max-width: 900px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      margin-bottom: 50px;
+overflow-y: scroll;
+scrollbar-gutter: stable;
+
+
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+      color: #00c6ff;
+      margin-top: 200px;
+    }
+
+  h6 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+    color: #00c6ff;
+  }
+
+    .intro-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 25px 0;
+    }
+
+    .intro-image img {
+      width: 90%;
+      max-width: 750px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      color: #00c6ff;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .video-container {
+      margin: 25px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+        margin-bottom: 10px;
+        margin-bottom: -10px;
+    }
+
+    a.btn {
+  background: rgb(255, 0, 0); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 60px; 
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+
+    a.btn:hover {
+  background: rgba(255, 0, 0, 0.5); 
+  transform: scale(1.05);
+}
+
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      color: white;
+      z-index: 10;
+    }
+
+    .lesson-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers horizontally */
+      justify-content: center;
+      margin: 25px 0;
+      text-align: center;
+    }
+
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.3);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(255,255,255,0.5);
+    }
+
+
+  .power-supply b {
+    color: rgb(172, 141, 141);
+  }
+
+
+  </style>
+</head>
+<body>
+
+  <main>
+
+<div class="google-form" style="text-align:center; margin-bottom: 40px;">
+  <iframe 
+    src="Pre(nc2(l1).html" 
+    width="90%" height="3500" frameborder="0" marginheight="0" marginwidth="0"
+    style="border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.5); background-color: white;">
+    Loading…
+  </iframe>
+</div>
+
+   <h1>Lesson 1: Introduction to CSS</h1>
+
+    <h2>Introduction</h2>
+
+        <div class="intro-image">
+      <img src="history of computer.png" alt="Introduction Image">
+    </div>
+
+    <p>
+      The introduction explains that the computer we know today did not appear instantly. It is the result of many improvements and inventions made over time. It started in the 19th century when an English mathematics professor named Charles Babbage created the first design of a computer. His idea became the foundation for how modern computers work today.
+    </p>
+
+
+
+    <h1>Types of Computers</h1>
+
+    <ul>
+      <h2>Supercomputer</h2>
+      <li>The most powerful and advanced type of computer. It is used by big companies and organizations for special tasks like weather forecasting, research, and exploration.</li>
+      
+      <div class="lesson-image">
+      <img src="super computer.jpg" alt="Introduction Image"> </div>
+
+    </ul>
+
+    <ul>
+        <h2>Mainframe Computer</h2>
+        <li>Large and expensive computer that can handle many users and programs at the same time. It can process and store a huge amount of data and is usually kept in big, air-conditioned rooms because of its size.
+        </li>
+      
+      <div class="lesson-image">
+      <img src="download (1).jpg" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul>
+         <h2>Minicomputer</h2>
+          <li>Also known as midrange computers. It features all the functions of a large size computer, but has
+         a smaller size. Minicomputers can support many users because of its multi-processing system. 
+      </li>
+      
+      <div class="lesson-image">
+      <img src="download (2).jpg" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul>
+         <h2>Microcomputer</h2>
+          <li>Most widely used and fastest growing type of computer. Desktop computers, laptops, tablets,
+             and smartphones are types of microcomputers.
+      </li>
+      
+      <div class="lesson-image">
+      <img src="download (3).jpg" alt="Introduction Image"> </div>
+    </ul>
+
+
+
+    <h1>Fundamental Elements of a Computer</h1>
+
+    <ul>
+    <div class="lesson-image">
+    <img src="download (10).jpg" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul>
+      <h2>Input unit</h2>
+      <li>This is where data and instructions enter the computer. 
+        They allow the user to communicate with the computer.</li>
+      <li>Examples: Keyboard, mouse, scanner, microphone.</li>
+      <h2>System Unit</h2>
+      <li>This is the main part of the computer that processes the data. 
+        It processes and stores data, executing commands from input devices.</li>
+      <li>It contains important components like the CPU, memory (RAM), storage (HDD/SSD), and motherboard.</li>
+      <h2>Output Devices</h2>
+      <li>These display or produce the results after the computer processes data. 
+        They show the final output in a form that people can understand.</li>
+      <li>Examples: Monitor, printer, speakers, projector.</li>
+    </ul>
+
+    <ul>
+      <h1>Processing devices</h1>
+      <li>Processing devices are the computers circuitry in the system unit.</li>
+      <div class="lesson-image">
+      <img src="processing devise.jpg" alt="Introduction Image"> </div>
+   </ul>
+
+   <ul>
+      <h2>Motherboard</h2>
+      <li>Motherboard is the circuit board housing the memory and the central processing unit (CPU)</li>
+       <div class="lesson-image">
+      <img src="motherboard.jpg" alt="Introduction Image"> </div>
+   </ul>
+
+   <ul>
+      <h2>Central Processing Unit (CPU)</h2>
+      <li>Central Processing Unit (CPU) is manipulates input data into the information needed by the users</li>
+       <div class="lesson-image">
+      <img src="CPU.jpg" alt="Introduction Image"> </div>
+   </ul>
+
+   <ul>
+      <h2>Memory</h2>
+      <li>
+        Memory is also known as Random Access Memory or RAM. It is a series of electronic elements that 
+        act as temporary storage of data and program instructions while the instructions are 
+        being processed by the CPU.
+      </li>
+       <div class="lesson-image">
+      <img src="mem.jpg" alt="Introduction Image"> </div>
+    </ul>
+    
+      <ul>
+        <h2>Chips</h2>
+        <li>
+          These make up the CPU and the
+           memory; these are electronic devices that contain many microscopic
+            pathways designed to carry electrical currents.
+        </li>
+        <div class="lesson-image">
+      <img src="chip.jpg" alt="Introduction Image"> </div>
+      </ul>
+
+
+
+    <ul>
+      <h1>Storage Devices</h1>
+      <li>Storage devices store data and programs. These hold data, information, and programs permanently.
+      </li>
+      <div class="lesson-image">
+      <img src="storage.jpg" alt="Introduction Image"> </div>
+      </ul>
+    </ul>
+
+    <ul>
+      <h2>Solid State Drive (SSD)</h2>
+      <li>
+        mass storage device that stores data in a permanent state even without power. Similar to an HDD’s
+         function, only the internal components are different. 
+        SSDs do not have moving parts but store data on magnetic platters making use of flash memory.
+      </li>
+      <div class="lesson-image">
+      <img src="ssd.jpg" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul>
+      <h2>Hard Disk Drive (HHD)</h2>
+      <li>often called hard drive or hard disk. This is the most common storage device that do not need power to maintain data; 
+        these store data through spinning platters or magnetic disks, recording individual bits written into the disk.</li>
+      <div class="lesson-image">
+      <img src="hdd.jpg" alt="Introduction Image"> </div>
+    </ul>
+      
+    <ul>
+      <h2>Flash Drive</h2>
+      <li>Highly portable small data storage devices making use of flash
+         memory and a Universal Serial Bus (USB) port connection</li>
+      <div class="lesson-image">
+      <img src="falshdrive.jpg" alt="Introduction Image">   </div>      
+    </ul>
+
+    <ul>
+      <h2>Compact Disc (CD)</h2>
+      <li>This storage device can hold up to 700 MB; it is read by an optical drive through a laser</li>
+      <div class="lesson-image">
+      <img src="cd.jpg" alt="Introduction Image">    </div>     
+      
+    </ul>
+
+    <ul>
+      <h1>Input Devices</h1>
+      <li>Input devices allow the user to communicate with the computer by entering data or commands.
+      </li>
+      <h2>Keyboard </h2>
+      <li>Primary input device used to input alphanumeric data and commands to the computer</li>
+      <div class="lesson-image">
+      <img src="keyboard.jpg" alt="Introduction Image">   </div>
+    </ul>
+
+    <ul>
+      <h2>Mouse</h2>
+      <li>Primary input device used to navigate and interact with the monitor output</li>
+      <div class="lesson-image">
+      <img src="mouse.jpg" alt="Introduction Image"> </div>
+
+    </ul>
+
+    <ul>
+      <h2>Scanner</h2>
+      <li>Scans documents and converts them digitally, which can be edited on a computer.</li>
+      <div class="lesson-image">
+      <img src="scanner.jpg" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul>
+      <h2>Webcam</h2>
+      <li>Small cameras attached to a monitor or desk that record or broadcast video.</li>
+      <div class="lesson-image">
+      <img src="webcam.jpg" alt="Introduction Image">       </div>
+    </ul>
+
+    <ul>
+      <h2>Joystick</h2>
+      <li>Device used to control video games, aside from the keyboard</li>
+      <div class="lesson-image">
+      <img src="joystick.jpg" alt="Introduction Image">         </div>
+    </ul>
+
+    <ul>
+      <h1>Output devices</h1>
+      <li>Output devices enable the computer to show the processed data and information understandably to the user.</li>
+      <h2>Printer </h2>
+      <li>Prints paper documents, photographs, and other outputs called 
+        hard copies which are physical versions of the documents.</li>
+      <div class="lesson-image">
+      <img src="printer.jpg" alt="Introduction Image">          </div>  
+    </ul>
+
+      <ul>
+        <h2>Monitor</h2>
+        <li>acts as the primary display of the unit where the user interface and programs are reflected.</li>
+      <div class="lesson-image">
+      <img src="monitor.jpg" alt="Introduction Image">  </div>         
+      </ul>
+
+      <ul>
+        <h2>Speaker</h2>
+        <li>Sound system device that produce audio output from the computer.</li>
+      <div class="lesson-image">
+      <img src="speaker.jpg" alt="Introduction Image">      </div>      
+      </ul>
+
+      <ul>
+        <h1>The System Unit</h1>
+        <li>The System Unit is the main part of the computer that holds the processor, memory, and other
+           electronic parts used to process data. All input and output devices are connected to it.
+           It is enclosed in a computer case, which protects and supports the internal components.</li>
+      <div class="lesson-image">
+      <img src="system unit.jpg" alt="Introduction Image">    </div>
+      </ul>
+
+      <ul>
+        <h2>Computer Case</h2>
+        <li>The Computer Case is the box that contains and protects the computer’s internal parts. 
+          It prevents damage from static electricity and helps keep the parts cool with vents and fans.
+           It is usually made of plastic, steel, or aluminum and comes in different sizes called form factors.</li>
+      <div class="lesson-image">
+      <img src="comcase.jpg" alt="Introduction Image">    </div>
+
+      </ul>
+
+      <ul>
+        <li>Other names for a computer case include chassis, cabinet, tower, box, or housing.</li>
+        <h2>Types of Computer Cases</h2>
+        <li>Tower – Full, Mid, Mini</li>
+        <div class="lesson-image">
+         <img src="tower.jpg" alt="Introduction Image">  </div>
+      </ul>
+
+      <ul>
+     <li>Desktop – Standard, Slimline</li>
+     <div class="lesson-image">
+      <img src="desktop.jpg" alt="Introduction Image">   </div>
+
+      </ul>
+
+        <ul>
+          <h1>Power Supply</h1>
+          <li>Power supplies serve as the source for electricity to the computer.
+             Attached are vital hardware cables and buses for transferring power to 
+             various components in the computer. </li>
+     <div class="lesson-image">
+      <img src="power suply.jpg" alt="Introduction Image">    </div>           
+
+        </ul>
+
+        <ul class="power-supply">
+          <h2> Basic connector in a power supply:</h2>
+          <li> <b>ATX 24 pin main power connector</b> is the standard motherboard power connector used in nearly every computer.</li>
+          <li><b>SATA 15 pin power supply connector</b> is one of several standard peripheral power connectors. SATA power connectors
+             only connect to SATA drives like hard drives and optical drives. SATA power connectors do not work with older PATA devices.</li>
+            <li><b>Molex 4 pin power supply connector</b> is a standard peripheral power connector. Molex power connectors connect to many different
+               kinds of internal peripherals including PATA hard drives and optical drives, some video cards, and even some other devices.</li>
+             <li><b>Floppy drive 4 pin power supply connector</b> is the standard floppy drive power connector. The floppy power connector, also called a Berg connector 
+              or Mini-Molex connector, is included in even the newest power supplies even though floppy drives are becoming obsolete.</li>
+              <li><b>ATX 4 pin power supply connector</b> is a standard motherboard power connector used to provide +12 VDC to the processor
+                 voltage regulator. This small connector usually attaches to the motherboard near the CPU.</li>
+              <li><b>ATX 6 pin power supply connector</b> is a motherboard power connector used to provide +12 VDC to the processor voltage regulator but the
+                 4-pin variety is the more commonly used connector. This small connector usually attaches to the motherboard near the CPU.</li>
+
+            </ul>
+
+        <ul>
+        <div class="lesson-image">
+            <img src="pin2.png" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;"> 
+          </div>
+        </ul>
+
+        <ul>
+          <h1>Motherboard</h1>
+          <li>The motherboard is also known as mainboard, system board, logic board, or MOBO. It holds and allows 
+            communication between the crucial components of the computer such as the CPU and memory. It also provides 
+            connection for other peripherals.
+             This provides the path which the processor (CPU) communicates with all the components of the computer.</li>
+     <div class="lesson-image">
+      <img src="motherboard2.jpg" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">       </div>        
+        </ul>
+
+    <ul>
+      <h2>SEVERAL COMPONENTS THAT ARE ATTACHED TO THE MOTHERBOARD:</h2>
+      <h2>Chip</h2>
+      <li>small piece of semiconducting material, where more integrated circuits 
+        are embedded. They have standard-sized pin connectors that allows them to be attached to the motherboard.</li>
+       <div class="lesson-image">
+      <img src="CHIp - Copy.jpg" alt="Introduction Image">  </div>
+    </ul>
+
+    <ul>
+      <h2>Bus</h2>
+      <li>an electrical path that enables data flow between various system components.</li>
+      <div class="lesson-image">
+      <img src="BUS.jpg" alt="Introduction Image">     </div>   
+    </ul>
+
+    <ul>
+      <h2>Integrated Circuit (IC)</h2>
+        <li>contains microscopic pathways that carry electric current. The IC contains millions of 
+        elements such as resistors, capacitators, and transistors. Many different kinds of chips are located in the motherboard</li>
+      <div class="lesson-image">
+      <img src="IC.webp" alt="Introduction Image">  </div>
+    </ul>
+
+
+      <ul>
+      <h2>Microprocessor</h2>
+      <li> this is the central processing unit on a chip.</li>
+      <div class="lesson-image">
+      <img src="CPU.jpg" alt="Introduction Image">  </div>
+      </ul>
+
+      <ul>
+        <h2>DIFFERENT VARIETY OF CHIP PACKAGES:</h2>
+        <h2>Dual Inline Package (DIP)</h2>
+        <li>this has two parallel rows of pints that attach the chip package to the circuit board.</li>
+      <div class="lesson-image">
+      <img src="dual.jpg" alt="Introduction Image">  </div>
+      </ul>        
+
+     <ul>
+      <h2>Pin Grid Array (PGA)</h2>
+      <li>holds a larger number of pins because the pins are mounted on the surface of the package.</li>
+      <div class="lesson-image">
+      <img src="PGA.jpg" alt="Introduction Image">        </div>
+     </ul>
+
+     <ul>
+      <h2> Flip Chip-PGA (CF-PGA) Package</h2>
+      <li>higher performance PGA packaging that places the chip on the opposite sides of the pins.</li>
+      <div class="lesson-image">
+      <img src="FLIP.webp" alt="Introduction Image">   </div>          
+     </ul>
+
+     <ul>
+      <h2>Single Edge Contact (SEC) Cartridge</h2>
+      <li>does not use pins but connects to one of the edges in the motherboard.</li>
+      <div class="lesson-image">
+      <img src="SEC.jpg" alt="Introduction Image">   </div>          
+     </ul>
+
+    <ul class="power-supply">
+      <h2>
+         There are different types of motherboard form factors:</h2>
+      <li><b>AT</b> – Advanced Technology</li>
+      <li><b>ATX</b> – Advanced Technology Extended</li>
+      <li><b>Mini-ATX</b> – Smaller footprint of ATX</li>
+      <li><b>Micro-ATX</b> – Smaller footprint of ATX </li>
+      <li><b>LPX </b>– Low-profile Extended</li>
+      <li><b>NLX </b>– New Low-profile Extended</li>
+      <li><b>BTX</b> – Balanced Technology Extended</li>
+      <div class="lesson-image">
+      <img src="Types-Of-Motherboard-Form-Factors-1.png" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">   </div>
+    </ul>
+
+    <ul class="power-supply">
+      <h2>NORTH AND SOUTH BRIDGE:</h2>
+      <li>The <b>northbridge</b> connects the CPU to fast parts like the RAM and video card, while the <b>southbridge</b> connects to slower parts like hard drives and USB devices.</li>
+
+      <div class="lesson-image">
+      <img src="bridge.jpg" alt="Introduction Image">     </div>
+
+      <div class="lesson-image">
+      <img src="bridge2.png" alt="Introduction Image">     </div>
+    </ul>
+
+    <ul>
+      <h1>Central Processing Unit (CPU)</h1>
+      <li>The CPU, also called the processor, is the brain of the computer. 
+        It processes data, runs instructions, and controls most computer operations. </li>
+        <li>Since it produces heat, a fan and heat sink are used to keep it cool.</li>
+      <div class="lesson-image">
+      <img src="COOL.png" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">   </div>
+    </ul>
+
+    <ul class="power-supply">
+        <li>Modern CPUs have multiple cores (multi-core processors), which make them faster and more efficient:</li>
+        <li><b>Dual Core</b> – has 2 processors in one chips</li>
+        <li><b>Quad Core</b> – has 4 processors in one chip</li>
+  
+      <li>AMD and Intel are the two most popular brands of processors in the market nowadays:</li>
+      <div class="lesson-image">
+      <img src="intelamd.webp" alt="Introduction Image">  </div>
+    </ul>
+
+    <ul>
+      <h1>Random Access Memory (RAM)</h1>
+      <li><b>RAM</b> is the computer’s temporary storage. It holds data while the computer is running and changes as programs are used. 
+          RAM chips are placed on the motherboard and work using electric signals.</li>
+      <div class="lesson-image">
+      <img src="mem.jpg" alt="Introduction Image">  </div>
+    </ul>
+
+    <ul class="power-supply">
+      <h2>Three basic types of RAM:  </h2>
+      <li>1.<b> Dynamic RAM (DRAM)</b> - This kind of RAM needs to be recharged by the CPU. If not, it loses its contents.
+       There are many variations of DRAM such as:</li>
+
+       <li><b> Synchronous DRAM (SDRAM) </b> - faster than DRAM because it is synchronized to the system clock</li>
+      <div class="lesson-image">
+      <img src="SDRAM.jfif" alt="Introduction Image"> </div>
+    </ul>
+
+    <ul class="power-supply">
+       <li><b>Double Data Rate (DDR) SDRAM </b> - faster than SDRAM because they transfer data twice for each clock cycle</li>
+      <div class="lesson-image">
+      <img src="DDR SDRAM.jfif" alt="Introduction Image"> </div>  </ul>
+
+        <ul class="power-supply">
+       <li><b>DDR1, DRR2, DDR3, DDR4, and DDR5 SDRAM</b> – faster than DDR SDRAM</li>
+      <div class="lesson-image">
+      <img src="DDR 1-55.png" alt="Introduction Image"> </div>
+      </ul>
+
+      <ul class="power-supply">
+       <li ><b>Rambus DRAM (RDRAM) </b>– type of DRAM faster than SDRAM that uses pipelining techniques</li>
+      <div class="lesson-image">
+      <img src="RAMBUS.jfif" alt="Introduction Image">     </div>   
+        </ul>
+
+    <ul class="power-supply">
+      <li>2. <b>Static RAM (SRAM)</b> - This kind is faster and more reliable than any form of DRAM. Unlike the DRAM, this does not need to be
+         re-energized. However, it is much more expensive and it used for special purposes.</li>
+       <div class="lesson-image">
+      <img src="STATIC RAM.jfif" alt="Introduction Image">   </div>
+    </ul>
+
+    <ul class="power-supply">
+      <li>3. <b>Magnetoresistive RAM (MRAM)</b>- This kind stores data using magnetic charges instead of electrical charges. 
+         It has greater storage capacity, consume less power, and faster access times.</li> 
+      <div class="lesson-image">
+      <img src="MRAM.jfif" alt="Introduction Image">      </div>      
+    </ul>
+
+    <ul class="power-supply">
+      <h2>Three types of memory modules:</h2>
+      <li>1. <b>Single Inline Memory Module (SIMM)</b>– this has pins on opposite sides of the circuit board which
+         connect together to form a single set of contacts. This houses SDRAM chips along with DIMMs.</li>
+        <li>2. <b>Dual Inline Memory Module (DIMM)</b>– the pins on the opposite sides of the circuit board do not
+           connect and form two sets of contacts. This houses SDRAM chips along with SIMMs.</li>
+        <li>3. <b>Rambus Inline Memory Module (RIMM)</b>-this houses RDRAM chips</li>
+    </ul>
+
+    <ul class="power-supply">
+      <h1>Cooling Technology</h1>
+      <li><b>Cooling technologies</b> are essential in avoiding the computer from overheating and maintaining a good, well-ventilated system.</li>
+      <div class="lesson-image">
+      <img src="airflow.jfif" alt="Introduction Image"> </div>   </ul>
+      
+      <ul class="power-supply">
+      <li><b>Fans</b> are also present in several components such as the power supply, ports, processor, hard disk etc.</li>
+      <li><b>Heat Sink</b>, on another hand, is a small metal or ceramic component with fins on the surface which absorbs and distributes heat produced by electrical components.</li>
+    <li><b>Heat pipe</b> is used on smaller devices like notebook computers since this is smaller in size.</li>
+      <div class="lesson-image">
+      <img src="COOLING.jfif" alt="Introduction Image">     </div>
+      </ul>
+      
+
+      <ul>
+        <h2>Expansion Cards</h2>
+        <li>A motherboard has expansion slots for expansion cards. These cards, also called adapter cards, add more ports to the computer.</li>
+      <li>The picture shows a Video Card with three video ports. It has a cooling fan and heat sink to prevent overheating. Today, most ports are already built into the motherboard, so fewer expansion cards are needed.</li>
+       <div class="lesson-image">
+      <img src="expansion card.jfif" alt="Introduction Image">     </div>
+      <li>There are different types of expansion cards like network cards, sound cards, video capture cards, and interface cards. These cards are used to add features or improve the computer based on the user’s needs.</li>
+    </ul>
+
+    <ul>
+      <h1>Port, Socket, Slot & Connector</h1>
+      <li>The motherboard has ports, sockets, slots, and connectors that connect the computer’s parts and input/output devices. Ports are usually found on the side of the motherboard or at the back of the system case.</li>
+    
+    </ul>
+
+    <ul>
+      <h6>PORT</h6>
+     <div class="lesson-image">
+      <img src="POORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="PS2 PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="SERIAL PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul> 
+
+      <ul>
+     <div class="lesson-image">
+      <img src="PARRALEL PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>    
+
+      <ul>
+     <div class="lesson-image">
+      <img src="USB PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="AUDIO PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="GAME PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="FIREWIRE PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="VGA PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+
+      <ul>
+     <div class="lesson-image">
+      <img src="DVI PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="HDMI PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="DP PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="S VID PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="RCA PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="USB 3 PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="MODEM PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="LAN PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="SATA PORT.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+<ul>
+  <h1>SLOT</h1>
+     <div class="lesson-image">
+      <img src="isa slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+</ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="pci slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="agp slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="pci e slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="pcie1 slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="crn slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>   
+
+      <ul>
+     <div class="lesson-image">
+      <img src="amr slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="simm slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="dimm slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="cpu slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+<ul>
+  <h1>SOCKET</h1>
+     <div class="lesson-image">
+      <img src="spu socket.PNG" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+</ul>
+
+<ul>
+<h1>CONNECTORS</h1>
+     <div class="lesson-image">
+      <img src="psu connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+</ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="24 pins.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="4 pins.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="8 pins.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="cpu slot.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="ide connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="ide connector 2.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="sata connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="fornt panel connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="usb connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="audio connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="pdif connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="fan connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="cpu fan connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="cmus connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+      <ul>
+     <div class="lesson-image">
+      <img src="master connector.png" alt="Introduction Image" alt="Introduction Image" style="width: 500px; display: block; margin: 30px auto; border-radius: 10px;">    </div>     
+    </ul>
+
+
+<div class="google-form" style="text-align:center; margin-bottom: 40px;">
+  <iframe 
+    src="pos(nc2(l1).html" 
+    width="90%" height="3500" frameborder="0" marginheight="0" marginwidth="0"
+    style="border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.5); background-color: white;">
+    Loading…
+  </iframe>
+</div>
+
+  </main>
+
+  <footer>
+        <div class="nav-buttons">
+      <a href="NC.html" class="btn"> <b>BACK</b></a>
+
+    </div>
+
+    © 2025 NC2PrepHub | All Rights Reserved</footer>
+</body>
+</html>

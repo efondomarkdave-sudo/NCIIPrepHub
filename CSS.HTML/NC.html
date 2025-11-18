@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NC2PrepHub - NC 4 Lessons</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: url('nhs.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 60px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+      pointer-events: none; 
+    }
+
+    h1, p, .lesson-container, .back-btn {
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    p {
+      opacity: 0.9;
+      font-size: 1.2rem;
+      margin-bottom: 50px;
+    }
+
+    .lesson-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+
+    .lesson-card {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      text-decoration: none;
+      padding: 40px 50px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      transition: all 0.4s ease;
+      width: 250px;
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+    }
+
+    .lesson-card:hover {
+      transform: translateY(-10px) scale(1.05);
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    .lesson-card h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .lesson-card p {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    .back-btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 12px 25px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: 0.3s;
+      position: relative;
+      z-index: 1;
+    }
+
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>NC 2 - National Certificate 2</h1>
+  <p>Explore the lessons below to enhance your advanced system management skills.</p>
+
+  <div class="lesson-container">
+    <a href="NC(L1).html" class="lesson-card">
+      <h2>Lesson 1</h2>
+      <p>Introduction to CSS</p>
+    </a>
+
+    <a href="NC(L2).html" class="lesson-card">
+      <h2>Lesson 2</h2>
+      <p>Installing and Configuring Computer Systems</p>
+    </a>
+
+    <a href="NC(L3).html" class="lesson-card">
+      <h2>Lesson 3</h2>
+      <p>Setting Up Computer Networks</p>
+    </a>
+
+    <a href="NC(L4).html" class="lesson-card">
+      <h2>Lesson 4</h2>
+      <p>Setting Up Computer Servers</p>
+    </a>
+
+    <a href="NC(L5).html" class="lesson-card">
+      <h2>Lesson 5</h2>
+      <p>Maintaining Computer Systems and Networks</p>
+    </a>
+  </div>
+
+  <a href="homepage.html" class="back-btn"> <b>Back to Home</b></a>
+
+</body>
+</html>

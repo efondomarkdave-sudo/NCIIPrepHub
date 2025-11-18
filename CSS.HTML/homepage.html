@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NC2PrepHub - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: url('nhs.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 0;
+    }
+
+    h1, p, .card-container, footer {
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    p {
+      opacity: 0.9;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      text-decoration: none;
+      padding: 50px 60px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      transition: all 0.4s ease;
+      width: 280px;
+      backdrop-filter: blur(10px);
+    }
+
+    .card:hover {
+      transform: translateY(-12px) scale(1.05);
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h2 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .card p {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 80px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>NC2PrepHub</h1>
+  <p>Your Gateway to Certification Excellence</p>
+
+
+    <a href="NC.html" class="card">
+      <h2>National Certification</h2>
+      <p>Master your knowledge and prepare confidently for your NC assessment.</p>
+    </a>
+  </div>
+
+  <footer>© 2025 NC2PrepHub | All Rights Reserved</footer>
+
+</body>
+</html>
